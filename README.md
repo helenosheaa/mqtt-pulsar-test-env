@@ -7,7 +7,7 @@ Setup apache pulsar:
 If Docker-compose fails to start up successfully run:
 
 ```
-`docker run -it \
+docker run -it \
 -p 6650:6650 \
 -p 8080:8080 \
 -v $PWD/data:/pulsar/data \
@@ -44,7 +44,8 @@ Service URL:
 
 Start pulsar client, consumer and producer: 
 
-`go run ./main.go`
+`go build main.go`
+`./main`
 
 View topics in manager UI
 
