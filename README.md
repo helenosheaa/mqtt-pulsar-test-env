@@ -4,7 +4,7 @@ Setup apache pulsar:
 
 `docker-compose up`
 
-If Docker-compose fails to start run:
+If Docker-compose fails to start up successfully run:
 
 ```
 `docker run -it \
@@ -34,7 +34,7 @@ curl \
 
 Navigate to manager UI:
 
-[](http://localhost:9527/)
+`http://localhost:9527/`
 
 Setup new environment:
 
